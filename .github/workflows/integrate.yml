@@ -9,7 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/cache@v2
-      - uses: actions/setup-node@v1.1.0
+      - uses: actions/cache@v2
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         with:
           node-version: 12
       - run: npm ci
