@@ -9,10 +9,14 @@ jobs:
     runs-on: macos-latest
     steps:
 <<<<<<< HEAD
+<<<<<<< HEAD
       - uses: actions/cache@v1
 =======
       - uses: actions/checkout@v2
 >>>>>>> 53a0a872b75e83bf3450b81dfae58ed1c23bd1cd
+=======
+      - uses: actions/checkout@v2
+>>>>>>> 593e5dd4992d7e5f9f834d6b53615f76579a0260
       - uses: actions/setup-node@v1.1.0
         with:
           node-version: 12
