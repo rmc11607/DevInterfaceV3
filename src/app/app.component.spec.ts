@@ -30,6 +30,9 @@ describe('AppComponent', () => {
 			'frontend app is running!'
 		);
 	});
+	it('should fail', () => {
+		expect(true).toBe(false);
+	});
 
 	//makes another change to file
 });
