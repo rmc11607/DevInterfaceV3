@@ -34,6 +34,7 @@ describe('AppComponent', () => {
 		expect(true).toBe(false);
 		//this is a comment
 		//another comment
+		//another
 	});
 
 	//makes another change to file
