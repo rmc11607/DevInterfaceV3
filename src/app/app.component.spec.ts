@@ -32,6 +32,7 @@ describe('AppComponent', () => {
 	});
 	it('should fail', () => {
 		expect(true).toBe(false);
+		//this is a comment
 	});
 
 	//makes another change to file
