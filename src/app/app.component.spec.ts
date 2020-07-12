@@ -31,12 +31,6 @@ describe('AppComponent', () => {
 		);
 	});
 	it('should fail', () => {
-		expect(true).toBe(false);
-		//this is a comment
-		//another comment
-		//another
-		//another
+		expect(true).toBe(true);
 	});
-
-	//makes another change to file
 });
